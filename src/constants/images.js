@@ -20,10 +20,12 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import heroBurger from "../assets/hero-burger.png";
+import burgermobile from "../assets/burgermobile.png";
 
 export default {
   bg,
   chef,
+  burgermobile,
   G,
   gallery01,
   gallery02,

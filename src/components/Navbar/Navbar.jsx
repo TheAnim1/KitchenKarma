@@ -38,11 +38,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu
-          color="#fff"
-          fontSize={27}
+        <div
+          className="app__navbar-burgermobile"
           onClick={() => setToggleMenu(true)}
-        />
+        >
+          <img src={images.burgermobile} alt="" />
+        </div>
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center  slide-bottom">
             <MdOutlineRestaurantMenu
