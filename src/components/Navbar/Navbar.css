@@ -1,0 +1,86 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-red);
+  padding: 1rem 2rem;
+}
+
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__navbar-logo img {
+  width: 120px;
+}
+
+.app__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.app__navbar-links a::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: 10px;
+  background: rgba(220, 148, 87, 0.49);
+  top: -13px;
+  transition: width 0.5s ease;
+}
+
+.app__navbar-links a:hover::after {
+  width: 110%;
+}
+
+.app__navbar-links li:hover {
+  color: var(--color-golden);
+
+  transition: 0.5s ease;
+}
+
+.app__navbar-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app__navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+.app__navbar-login a::after {
+  content: "";
+  z-index: 0;
+  display: block;
+  position: relative;
+  width: 0;
+  height: 10px;
+  background: rgba(220, 148, 87, 0.49);
+  top: -13px;
+  transition: width 0.5s ease;
+}
+.app__navbar-login a:hover::after {
+  width: 100%;
+}
+
+.app__navbar-login a:hover {
+  color: var(--color-golden);
+  transition: 0.5s ease;
+}
