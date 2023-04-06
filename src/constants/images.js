@@ -19,6 +19,7 @@ import award03 from "../assets/award03.png";
 import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
+import heroBurger from "../assets/hero-burger.png";
 
 export default {
   bg,
@@ -42,4 +43,5 @@ export default {
   award05,
   sign,
   quote,
+  heroBurger,
 };
