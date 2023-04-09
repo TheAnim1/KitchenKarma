@@ -10,6 +10,7 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  SignatureItems,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -23,6 +24,7 @@ const App = () => (
       </div>
     </div>
     <AboutUs />
+    <SignatureItems />
     <SpecialMenu />
     <Chef />
     <Intro />

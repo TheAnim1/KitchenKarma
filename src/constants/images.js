@@ -21,9 +21,20 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import heroBurger from "../assets/hero-burger.png";
 import burgermobile from "../assets/burgermobile.png";
-
+import hamburgerleft from "../assets/hamburgerleft.png";
+import hamburgerright from "../assets/hamburgerright.png";
+import aboutburger from "../assets/aboutburger.png";
+import fishburger from "../assets/fishburger.png";
+import beefburger from "../assets/beefburger.png";
+import veggieburger from "../assets/veggieburger.png";
 export default {
   bg,
+  veggieburger,
+  beefburger,
+  fishburger,
+  hamburgerleft,
+  hamburgerright,
+  aboutburger,
   chef,
   burgermobile,
   G,
