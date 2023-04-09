@@ -28,8 +28,12 @@ import fishburger from "../assets/fishburger.png";
 import beefburger from "../assets/beefburger.png";
 import veggieburger from "../assets/veggieburger.png";
 import burgerDiagram from "../assets/burger-diagram.jpg";
+import patty from "../assets/patty.jpg";
+import juice from "../assets/juice.jpg";
 export default {
   bg,
+  juice,
+  patty,
   burgerDiagram,
   veggieburger,
   beefburger,

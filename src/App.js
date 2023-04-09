@@ -14,6 +14,7 @@ import {
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
+import Specialities from "./container/Specialities/Specialities";
 
 const App = () => (
   <div>
@@ -28,6 +29,7 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
+    <Specialities />
     <Laurels />
     <Gallery />
     <FindUs />

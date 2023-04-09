@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -101px;
+}
+.left,
+.right {
+  flex: 1 0 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.left img {
+  width: 100%;
+}
+.right {
+}
+.center_item {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+}

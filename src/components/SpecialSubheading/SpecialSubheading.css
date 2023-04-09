@@ -1,0 +1,58 @@
+.specialities__title {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.specialities__title-heading {
+  position: relative;
+  padding: 10px 20px;
+  background: var(--color-white) !important;
+  display: inline-block;
+  z-index: 1;
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 700;
+  color: #1c2123;
+}
+
+.specialities__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 3px;
+  background: #dc9457;
+  z-index: 0;
+}
+
+.specialities__content h2 {
+  font-family: var(--font-base);
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+}
+
+.specialities__content-cursive {
+  color: #ef3d5b;
+  font-size: 75px;
+  font-family: var(--font-pacifico);
+}
+.specialities_content-subtitle {
+  padding: 10px 0px;
+  line-height: 36px;
+  font-size: 20px;
+  font-family: var(--font-base);
+  font-weight: 600;
+}
+
+.specialities_content-paragraph {
+  font-size: 16px;
+  line-height: 28.8px;
+  padding: 8px 0px;
+  font-family: var(--font-base);
+}
