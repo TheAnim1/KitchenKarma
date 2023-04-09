@@ -149,6 +149,9 @@
   .app__navbar-smallscreen {
     display: flex;
   }
+  .app__navbar-burgermobile img {
+    width: 10%;
+  }
 }
 
 /* MOBILE */
