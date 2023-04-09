@@ -1,5 +1,5 @@
 import bg from "../assets/bg.png";
-import chef from "../assets/chef.png";
+import chef from "../assets/chef.jpg";
 import G from "../assets/G.png";
 import gallery01 from "../assets/gallery01.png";
 import gallery02 from "../assets/gallery02.png";
@@ -27,8 +27,10 @@ import aboutburger from "../assets/aboutburger.png";
 import fishburger from "../assets/fishburger.png";
 import beefburger from "../assets/beefburger.png";
 import veggieburger from "../assets/veggieburger.png";
+import burgerDiagram from "../assets/burger-diagram.jpg";
 export default {
   bg,
+  burgerDiagram,
   veggieburger,
   beefburger,
   fishburger,

@@ -1,82 +1,82 @@
-import images from './images';
+import images from "./images";
 
-const wines = [
+const burgers = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Beef Burger",
+    price: "$15.99",
+    tags: "Beef | Lettuce | Mayo",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Fish Burger",
+    price: "$18.99",
+    tags: "Fish | Cheese | Ketchup",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Cheeseburger",
+    price: "$14.49",
+    tags: "Cheese | Beef | Ketchup",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "Double Cheeseburger",
+    price: "$13.11",
+    tags: "Double Cheese | Beef | Ketchup",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Turkish Burger",
+    price: "$26.99",
+    tags: "Beef Kofta | Tomato | Cheese",
   },
 ];
 
-const cocktails = [
+const juices = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "Orange mint",
+    price: "$10.99",
+    tags: "Ginger | Mint | Orange",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Pineapple coco",
+    price: "$16.99",
+    tags: "Dark rum | Pineapple | Slice of lime",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Carrot smoothie",
+    price: "$10.99",
+    tags: "Carrot | Milk | Sugar",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Strawberry yogurt",
+    price: "$31.89",
+    tags: "Strawberry | Yogurt | Sugar",
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "white grape juice ",
+    price: "$26.99",
+    tags: "grape | Sugar | lemon",
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Bib Gourmond",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Rising Star",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AA Hospitality",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { burgers, juices, awards };

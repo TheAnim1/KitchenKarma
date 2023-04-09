@@ -1,0 +1,59 @@
+.chef__wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: row;
+}
+.chef__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
+.chef__wrapper_img img {
+  width: 634px;
+  border: 4mm ridge #dc9457;
+}
+
+.chef__content-quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chef__content-quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+
+.chef__sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.chef__sign p:first-child {
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.chef__sign img {
+  width: 250px;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .chef__wrapper {
+    flex-direction: column;
+  }
+  .chef__wrapper_img img {
+    width: 100%;
+  }
+  .chef__content {
+    margin-top: 20px;
+  }
+}
