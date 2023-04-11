@@ -30,7 +30,6 @@ const App = () => (
     <Chef />
     <Intro />
     <Specialities />
-    <Laurels />
     <Gallery />
     <FindUs />
     <Footer />

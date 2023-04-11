@@ -31,8 +31,8 @@ const Specialities = () => (
             heading="FRESH"
             subheading="FRUITS"
             title="JUICE"
-            subtitle="OUR HOMEMADE FRESH BEEF PATTY"
-            paragraph="Revitalize your day with our fresh, flavorful juices bursting with nutrients and energy."
+            subtitle="OUR HOMEMADE FRESH JUICES"
+            paragraph="Revitalize your day with our fresh, flavorful juices."
           />
         </div>
       </div>

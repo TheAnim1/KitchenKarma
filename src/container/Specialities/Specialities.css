@@ -28,3 +28,15 @@
     margin-bottom: 0px;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .chef__wrapper_img img {
+    width: 100%;
+  }
+  .app__aboutus-content_burger img {
+    width: 100%;
+  }
+  .app__signatureitems-content-img img {
+    width: 100%;
+  }
+}
