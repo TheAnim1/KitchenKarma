@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#gallery">Gallery</a>
         </li>
         <li className="p__opensans">
-          <a href="#">Contanct</a>
+          <a href="#findus">Find Us</a>
         </li>
       </ul>
       <div className="app__navbar-login">

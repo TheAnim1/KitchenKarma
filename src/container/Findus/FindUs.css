@@ -1,0 +1,29 @@
+.app__wrapper-findus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2b2928;
+  flex-direction: row;
+}
+
+.findus_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.findus_img img {
+  width: 80%;
+  border: 4mm ridge #dc9457;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__wrapper-findus {
+    flex-direction: column;
+  }
+}

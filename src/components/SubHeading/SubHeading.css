@@ -50,6 +50,31 @@
   z-index: 0;
 }
 
+.footerHeadin__title {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.footerHeadin__title p {
+  position: relative;
+  padding: 10px;
+  background: var(--color-black) !important;
+  display: inline-block;
+  z-index: 1;
+}
+
+.footerHeadin__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 3px;
+  background: #dc9457;
+  z-index: 0;
+}
+
 @media screen and (max-width: 900px) {
   .chefheading__title {
     width: 100%;
