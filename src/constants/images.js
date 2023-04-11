@@ -1,6 +1,7 @@
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.jpg";
 import G from "../assets/G.png";
+import juicebanner from "../assets/juiceban.png";
 import gallery01 from "../assets/gallery01.jpg";
 import gallery02 from "../assets/gallery02.jpg";
 import gallery03 from "../assets/gallery03.jpg";
@@ -33,6 +34,7 @@ import juice from "../assets/juice.jpg";
 export default {
   bg,
   juice,
+  juicebanner,
   patty,
   burgerDiagram,
   veggieburger,

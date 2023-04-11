@@ -1,0 +1,72 @@
+.app__icebanner {
+  background-image: url(../../assets/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app__icebanner-overlay {
+  background-color: transparent;
+  opacity: 0.83;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.app__icebanner-image {
+  background-image: url(../../assets/juicebanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.app__icebanner-contents {
+  background: rgba(255, 255, 255, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+}
+.app__icebanner-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 70px 70px 10px 70px;
+}
+
+.app__icebanner-content-left {
+  margin: 0px 10px 0px 0px;
+  padding: 0px 0px 5px 0px;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: var(--color-golden);
+}
+
+.app__icebanner-content-left span {
+  font-size: 45px;
+  font-family: var(--font-base);
+  color: var(--color-black);
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.app__icebanner-content-right h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  font-family: var(--font-base);
+}
+
+.desc {
+  color: #1c2123;
+  line-height: 28.8px;
+  font-size: 16px;
+  font-family: var(--font-base);
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .app__icebanner-content {
+    flex-direction: column;
+  }
+}

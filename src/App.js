@@ -15,6 +15,7 @@ import {
 import { Navbar } from "./components";
 import "./App.css";
 import Specialities from "./container/Specialities/Specialities";
+import IceCreamBanner from "./container/IceCreamBanner/IceCreamBanner";
 
 const App = () => (
   <div>
@@ -31,6 +32,7 @@ const App = () => (
     <Intro />
     <Specialities />
     <Gallery />
+    <IceCreamBanner />
     <FindUs />
     <Footer />
   </div>
